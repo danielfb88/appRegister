@@ -1,0 +1,38 @@
+[
+
+  {
+    "group": "admin",
+    "permissions": [
+      {
+        "resource": "*",
+        "methods": "*",
+        "action": "allow"
+      }
+    ]
+  },
+
+  {
+    "group": "manager",
+    "permissions": [
+      {
+        "resource": "*",
+        "methods": "*",
+        "action": "allow"
+      }
+    ]
+  },
+  
+  {
+    "group": "observer",
+    "permissions": [
+      {
+        "resource": "*",
+        "methods": [
+            "GET"
+        ],
+        "action": "allow"
+      }
+    ]
+  }
+
+]
